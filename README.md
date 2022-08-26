@@ -29,7 +29,7 @@ At a high level, we'd like you to attempt the following
     - Enable Runtime Policies, generate some noise (how might you do that?)
     - Activity audit! Why's that valuable?
     - Posture? What's up with those?
-    - Vulnerability Management: secure images before they are deployed.
+    - Vulnerability Management, secure images before they are deployed.
 6. Design and describe how to resolve the following use-cases. You don't need to implement them. Please prioritize the usage of AWS services.
     - We want to retain events up to 6 months, how could we accomplish that?
     - Our DevSecOps team wants to receive critical events in a 3rd party tool which exposes a REST API.
