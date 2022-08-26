@@ -14,29 +14,32 @@ Cloud Native infrastructure encompasses many, many things these days. We do not 
 
 # The Project
 
-To get a handle on who you are, what your drive is, and how we can best support your success we have a few asks.  **Disclaimer**, we live in the age of Google, and that's OK! It's totally fine to look things up as you go. Get as far as you can, and be honest with yourself about your time. We're happy to give you more if you need it, just communicate with us when you're ready! At a high level, we'd like you to attempt the following:
+To get a handle on who you are, what your drive is, and how we can best support your success we have a few asks.  **Disclaimer**, we live in the age of Google, and that's OK! It's totally fine to look things up as you go. Get as far as you can, and be honest with yourself about your time. We're happy to give you more if you need it, just communicate with us when you're ready!  
 
-1. Create an EKS cluster.
+At a high level, we'd like you to attempt the following
+
+1. Create an EKS cluster and secure it with Sysdig usint a GitOps approach with Terraform or CloudFormation.
     - (Note: A node with 4cpu and 8 gigs of ram should be fine to run the Sysdig agent on)
     - If you're building in the cloud, and you're new to the cloud, learn about security and billing alerts!
     - Turn off or scale down your cluster when you're not using it, but don't destroy it!
-3. Signup for a Sysdig Platform Trial (https://sysdig.com/company/free-trial-platform/)
-4. Install the Sysdig Agent(s) using the *Getting Started* interface
-5. Install the classic *voting app* into your K8s cluster (https://github.com/dockersamples/example-voting-app)
-6. Get Creative and build some stuff in Sysdig.
-    - Scan the images being loaded, what do the results mean?
-    - Posture? What's up with those?
+2. Signup for a Sysdig Platform Trial (https://sysdig.com/company/free-trial-platform/).
+3. Install the Sysdig Agent(s) and Sysdig Cloud using the *Getting Started* interface. 
+4. Install the classic *voting app* into your K8s cluster (https://github.com/dockersamples/example-voting-app)
+5. Get Creative and build some stuff in Sysdig. 
     - Enable Runtime Policies, generate some noise (how might you do that?)
     - Activity audit! Why's that valuable?
-    - Build a PromQL query using the query builder in the explore section of Sysdig Monitor using metrics from the Voting App (bonus points if you use StatsD metrics in a PromQL query)
-    - Build a dashboard with your query + static metrics from Sysdig that relate multipule things together
-    - Add views to the dashboard that might be interesting to a user
+    - Posture? What's up with those?
+    - Vulnerability Management: secure images before they are deployed.
+6. Design and describe how to resolve the following use-cases. You don't need to implement them. Please prioritize the usage of AWS services.
+    - We want to retain events up to 6 months, how could we accomplish that?
+    - Our DevSecOps team wants to receive critical events in a 3rd party tool which exposes a REST API.
 7. Don't destroy your cluster! We'd like to look at it with you.
     - Hit some buttons and nav around things
     - Show off your namespaces
     - Pull some logs
-8. Feedback? 
-    - How can we get better? 
-    - How did you experience with Sysdig differ from your experience of any other similar solutions?
-    - What suggestions do you have on this process? 
-    - What tasks could be different or better?
+
+# Feedback?  
+- How can we get better?  
+- How did you experience with Sysdig differ from your experience of any other similar solutions?  
+- What suggestions do you have on this process?  
+- What tasks could be different or better?  
