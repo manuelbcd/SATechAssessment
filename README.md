@@ -30,7 +30,7 @@ At a high level, we'd like you to attempt the following
     - Activity audit! Why's that valuable?
     - Posture? What's up with those?
     - Vulnerability Management, secure images before they are deployed.
-6. Design and describe how to resolve the following use-cases. You don't need to implement them. Please prioritize the usage of AWS services.
+6. Design and describe how to resolve the following use-cases prioritizing the usage of AWS services.
     - We want to retain events up to 6 months, how could we accomplish that?
     - Our DevSecOps team wants to receive critical events in a 3rd party tool which exposes a REST API.
 7. Don't destroy your cluster! We'd like to look at it with you.
