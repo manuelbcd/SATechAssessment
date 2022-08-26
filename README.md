@@ -16,7 +16,7 @@ Cloud Native infrastructure encompasses many, many things these days. We do not 
 
 To get a handle on who you are, what your drive is, and how we can best support your success we have a few asks.  **Disclaimer**, we live in the age of Google, and that's OK! It's totally fine to look things up as you go. Get as far as you can, and be honest with yourself about your time. We're happy to give you more if you need it, just communicate with us when you're ready! At a high level, we'd like you to attempt the following:
 
-1. Create Kubernetes cluster - Do this however you want (EKS, GKE, AKS, IKS, OKE, KOPS, OCP, Rancher, whatever! Lots of free 'credit' options out there.)
+1. Create an EKS cluster.
     - (Note: A node with 4cpu and 8 gigs of ram should be fine to run the Sysdig agent on)
     - If you're building in the cloud, and you're new to the cloud, learn about security and billing alerts!
     - Turn off or scale down your cluster when you're not using it, but don't destroy it!
@@ -40,16 +40,3 @@ To get a handle on who you are, what your drive is, and how we can best support 
     - How did you experience with Sysdig differ from your experience of any other similar solutions?
     - What suggestions do you have on this process? 
     - What tasks could be different or better?
-
-# Additional Resources
-
-By no means are we saying you need to do these things. These are resources you might find helpful to learn about K8s and the Cloud Native world.
-
-**Rancher 101** - https://community.suse.com/courses/4242073/content
-Crazy useful course to learn about K8s from start to finish (though Rancher slated, still a great overall course)
-
-**Kube Academy** - https://kube.academy/
-
-**Intro to Kubernetes** - https://acloudguru.com/course/introduction-to-kubernetes
-
-**Kubernetes Up and Running** - https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/
